@@ -404,16 +404,3 @@ article.confirmation-page {
         opacity: 1;
     }
 }
-
-@media print {
-    article.confirmation-page {
-        .confirmation-actions {
-            display: none;
-        }
-
-        .confirmation-header {
-            background-color: white;
-            border: 2px solid var(--clr-primary);
-        }
-    }
-}
