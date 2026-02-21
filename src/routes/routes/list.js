@@ -13,7 +13,7 @@ export default async (req, res) => {
         routes = routes.filter(route => route.bestSeason.toLowerCase() === season.toLowerCase());
     }
 
-    res.render('controllers/list', {
+    res.render('routes/list', {
         title: 'Scenic Train Routes',
         regions,
         routes,

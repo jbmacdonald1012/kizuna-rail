@@ -12,7 +12,7 @@ const bookingPage = async (req, res) => {
         price: Math.round(yenToUsd(ticket.price) * 100) / 100
     }));
 
-    res.render('controllers/book', {
+    res.render('routes/book', {
         title: 'Book Trip',
         schedule,
         ticketOptions

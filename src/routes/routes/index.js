@@ -8,11 +8,11 @@ const router = Router();
 
 router.get('/', listRoutesPage);
 
-router.get('/:routeId', routeDetailsPage);
-
 router.get('/booking/:scheduleId', bookingPage);
 router.post('/book', processBookingRequest);
 
 router.get('/confirmation/:confirmationId', confirmationPage);
+
+router.get('/:routeId', routeDetailsPage);
 
 export default router;

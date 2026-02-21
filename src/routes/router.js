@@ -11,8 +11,8 @@ router.get('/', homePage);
 // About page
 router.get('/about', aboutPage);
 
-// Rail controllers
-router.use('/controllers', railRoutesRouter);
+// Rail routes
+router.use('/routes', railRoutesRouter);
 
 // Challenge scenarios
 router.use('/scenarios', challengeScenariosRouter);

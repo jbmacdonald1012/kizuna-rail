@@ -8,7 +8,7 @@ export default async (req, res) => {
 
     // TODO: getCompleteRouteDetails instead
 
-    res.render('controllers/details', {
+    res.render('routes/details', {
         title: 'Route Details',
         details,
         monthToAbbreviation

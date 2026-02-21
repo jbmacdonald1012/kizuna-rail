@@ -33,7 +33,7 @@
         if (selectedSeason !== 'all') queryParams.set('season', selectedSeason);
 
         const queryString = queryParams.toString();
-        window.location.href = '/controllers' + (queryString ? '?' + queryString : '');
+        window.location.href = '/routes' + (queryString ? '?' + queryString : '');
     }
 </script>
 
